@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooter/proprietary/camera.default.so:obj/lib/hw/camera.default.so \
+    vendor/htc/shooter/proprietary/camera.default.so:obj/lib/hw/vendor-camera.default.so \
     vendor/htc/shooter/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so
