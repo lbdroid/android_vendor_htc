@@ -50,10 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shootervm/proprietary/charging:/system/bin/charging \
     vendor/htc/shootervm/proprietary/htcbatt:/system/bin/htcbatt \
     vendor/htc/shootervm/proprietary/load-modem.sh:/system/bin/load-modem.sh \
-    vendor/htc/shootervm/proprietary/mpdecision:/system/bin/mpdecision \
     vendor/htc/shootervm/proprietary/netmgrd:/system/bin/netmgrd \
     vendor/htc/shootervm/proprietary/qmuxd:/system/bin/qmuxd \
-    vendor/htc/shootervm/proprietary/thermald:system/bin/thermald \
     vendor/htc/shootervm/proprietary/wireless_modem:system/bin/wireless_modem \
     vendor/htc/shootervm/proprietary/wireless_modem:system/xbin/wireless_modem \
     vendor/htc/shootervm/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
