@@ -108,4 +108,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/holiday/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/holiday/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/holiday/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-  vendor/htc/holiday/proprietary/lib/libv8.so:system/lib/libv8.so
+  vendor/htc/holiday/proprietary/lib/libv8.so:system/lib/libv8.so \
+  vendor/htc/holiday/proprietary/root/init:root/init
+
