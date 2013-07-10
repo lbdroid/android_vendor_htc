@@ -82,4 +82,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/glacier/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/glacier/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/glacier/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/glacier/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so
+  vendor/htc/glacier/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
+  vendor/htc/glacier/proprietary/lib/libwebkitaccel.so:system/lib/libwebkitaccel.so
