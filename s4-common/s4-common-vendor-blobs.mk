@@ -59,19 +59,21 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
         vendor/htc/s4-common/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
         vendor/htc/s4-common/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-        vendor/htc/s4-common/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
         vendor/htc/s4-common/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
         vendor/htc/s4-common/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
         vendor/htc/s4-common/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
         vendor/htc/s4-common/proprietary/lib/libllvm-a3xx.so:/system/lib/libllvm-a3xx.so \
-        vendor/htc/s4-common/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
-        vendor/htc/s4-common/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-        vendor/htc/s4-common/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+        vendor/htc/m7-common/proprietary/lib/libsc-a3xx.so:/system/lib/libsc-a3xx.so \
         vendor/htc/s4-common/proprietary/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
+        vendor/htc/s4-common/proprietary/etc/firmware/vidc.b00:/system/etc/firmware/vidc.b00 \
+        vendor/htc/s4-common/proprietary/etc/firmware/vidc.b01:/system/etc/firmware/vidc.b01 \
+        vendor/htc/s4-common/proprietary/etc/firmware/vidc.b02:/system/etc/firmware/vidc.b02 \
+        vendor/htc/s4-common/proprietary/etc/firmware/vidc.b03:/system/etc/firmware/vidc.b03 \
+        vendor/htc/s4-common/proprietary/etc/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
         vendor/htc/s4-common/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
         vendor/htc/s4-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/s4-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
