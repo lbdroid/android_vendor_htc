@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_hfr.so:system/lib/libchromatix_s5k3h1gx_hfr.so \
         vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_preview.so:system/lib/libchromatix_s5k3h1gx_preview.so \
         vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_zsl.so:system/lib/libchromatix_s5k3h1gx_zsl.so \
+        vendor/htc/pyramid/proprietary/lib/hw/vendor-camera.default.so:/system/lib/hw/vendor-camera.default.so \
         vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
         vendor/htc/pyramid/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/pyramid/proprietary/bin/htcbatt:/system/bin/htcbatt \

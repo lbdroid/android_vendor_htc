@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/shooter/proprietary/lib/libfrsdk.so:/system/lib/libfrsdk.so \
         vendor/htc/shooter/proprietary/lib/libgemini2.so:/system/lib/libgemini2.so \
         vendor/htc/shooter/proprietary/lib/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
+        vendor/htc/shooter/proprietary/lib/hw/vendor-camera.default.so:/system/lib/hw/vendor-camera.default.so \
         vendor/htc/shooter/proprietary/lib/libhtcdm.so:/system/lib/libhtcdm.so \
         vendor/htc/shooter/proprietary/lib/libmmjpeg2.so:/system/lib/libmmjpeg2.so \
         vendor/htc/shooter/proprietary/lib/libmmjps.so:/system/lib/libmmjps.so \
