@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/pyramid/proprietary/system/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
+    vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
 
 PRODUCT_COPY_FILES += \
         vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \

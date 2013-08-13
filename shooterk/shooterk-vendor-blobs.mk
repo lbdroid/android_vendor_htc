@@ -16,10 +16,10 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooterk/proprietary/system/lib/hw/vendor-camera.default.so:obj/lib/hw/vendor-camera.default.so \
-    vendor/htc/shooterk/proprietary/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/shooterk/proprietary/system/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/shooterk/proprietary/system/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
+    vendor/htc/shooterk/proprietary/lib/hw/vendor-camera.default.so:obj/lib/hw/vendor-camera.default.so \
+    vendor/htc/shooterk/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/shooterk/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+    vendor/htc/shooterk/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
      drm.service.enabled=true
