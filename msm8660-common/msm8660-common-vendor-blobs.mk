@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/msm8660-common/proprietary/lib/hw/vendor-camera.default.so:obj/lib/hw/vendor-camera.default.so \
     vendor/htc/msm8660-common/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/msm8660-common/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
 
@@ -34,7 +33,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/msm8660-common/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
         vendor/htc/msm8660-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
         vendor/htc/msm8660-common/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-        vendor/htc/msm8660-common/proprietary/lib/hw/vendor-camera.default.so:/system/lib/hw/vendor-camera.default.so \
         vendor/htc/msm8660-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
         vendor/htc/msm8660-common/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
         vendor/htc/msm8660-common/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
