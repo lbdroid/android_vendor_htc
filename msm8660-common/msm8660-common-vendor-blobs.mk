@@ -16,9 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/msm8660-common/proprietary/system/lib/hw/vendor-camera.default.so:obj/lib/hw/vendor-camera.default.so \
-    vendor/htc/msm8660-common/proprietary/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/msm8660-common/proprietary/system/lib/libacdbloader.so:obj/lib/libacdbloader.so
+    vendor/htc/msm8660-common/proprietary/lib/hw/vendor-camera.default.so:obj/lib/hw/vendor-camera.default.so \
+    vendor/htc/msm8660-common/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/msm8660-common/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
      drm.service.enabled=true
