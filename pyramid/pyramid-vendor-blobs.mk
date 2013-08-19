@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/pyramid/proprietary/lib/hw/vendor-camera.default.so:obj/lib/vendor-camera.default.so \
+    vendor/htc/pyramid/proprietary/lib/hw/vendor-camera.msm8660.so:obj/lib/vendor-camera.msm8660.so \
     vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
 
 PRODUCT_COPY_FILES += \
@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/pyramid/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/pyramid/proprietary/bin/htcbatt:/system/bin/htcbatt \
         vendor/htc/pyramid/proprietary/bin/netmgrd:/system/bin/netmgrd \
-        vendor/htc/pyramid/proprietary/lib/hw/vendor-camera.default.so:/system/lib/hw/vendor-camera.default.so \
+        vendor/htc/pyramid/proprietary/lib/hw/vendor-camera.msm8660.so:/system/lib/hw/vendor-camera.msm8660.so \
         vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
         vendor/htc/pyramid/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
         vendor/htc/pyramid/proprietary/lib/libgemini.so:/system/lib/libgemini.so \

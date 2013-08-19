@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooterk/proprietary/lib/hw/vendor-camera.default.so:obj/lib/vendor-camera.default.so \
+    vendor/htc/shooterk/proprietary/lib/hw/vendor-camera.msm8660.so:obj/lib/vendor-camera.msm8660.so \
     vendor/htc/shooterk/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
 
 PRODUCT_COPY_FILES += \
@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/shooterk/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/shooterk/proprietary/bin/htcbatt:/system/bin/htcbatt \
         vendor/htc/shooterk/proprietary/bin/netmgrd:/system/bin/netmgrd \
-        vendor/htc/shooterk/proprietary/lib/hw/vendor-camera.default.so:/system/lib/hw/vendor-camera.default.so \
+        vendor/htc/shooterk/proprietary/lib/hw/vendor-camera.msm8660.so:/system/lib/hw/vendor-camera.msm8660.so \
         vendor/htc/shooterk/proprietary/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
         vendor/htc/shooterk/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
         vendor/htc/shooterk/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
