@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
         vendor/htc/holiday/proprietary/bin/awb_camera:/system/bin/awb_camera \
-        vendor/htc/holiday/proprietary/bin/bma150_usr:/system/bin/bma 150_usr \
+        vendor/htc/holiday/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
         vendor/htc/holiday/proprietary/bin/dmagent:/system/bin/dmagent \
         vendor/htc/holiday/proprietary/bin/ip:/system/bin/ip \
         vendor/htc/holiday/proprietary/bin/ks:/system/bin/ks \
