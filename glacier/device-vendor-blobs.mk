@@ -83,6 +83,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/glacier/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/glacier/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/glacier/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
-  vendor/htc/glacier/proprietary/lib/libwebkitaccel.so:system/lib/libwebkitaccel.so \
-  vendor/htc/glacier/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
-  vendor/htc/glacier/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so
+  vendor/htc/glacier/proprietary/lib/libwebkitaccel.so:system/lib/libwebkitaccel.so
