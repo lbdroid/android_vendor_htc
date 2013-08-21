@@ -19,14 +19,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/msm8660-common/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/msm8660-common/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
 
-PRODUCT_PROPERTY_OVERRIDES += \
-     drm.service.enabled=true
-
 PRODUCT_COPY_FILES += \
         vendor/htc/msm8660-common/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/msm8660-common/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
-        vendor/htc/msm8660-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:/system/etc/permissions/com.google.widevine.software.drm.xml \
-        vendor/htc/msm8660-common/proprietary/framework/com.google.widevine.software.drm.jar:/system/framework/com.google.widevine.software.drm.jar \
         vendor/htc/msm8660-common/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
         vendor/htc/msm8660-common/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
         vendor/htc/msm8660-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -55,8 +50,4 @@ PRODUCT_COPY_FILES += \
         vendor/htc/msm8660-common/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
         vendor/htc/msm8660-common/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
         vendor/htc/msm8660-common/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-        vendor/htc/msm8660-common/proprietary/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
-        vendor/htc/msm8660-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
-        vendor/htc/msm8660-common/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
-        vendor/htc/msm8660-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/msm8660-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so
+        vendor/htc/msm8660-common/proprietary/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so
