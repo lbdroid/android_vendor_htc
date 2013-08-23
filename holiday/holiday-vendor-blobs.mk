@@ -73,4 +73,5 @@ PRODUCT_COPY_FILES += \
         vendor/htc/holiday/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
         vendor/htc/holiday/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
         vendor/htc/holiday/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
-        vendor/htc/holiday/proprietary/lib/libqdp.so:/system/lib/libqdp.so
+        vendor/htc/holiday/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
+        vendor/htc/holiday/proprietary/root/init:/root/init
