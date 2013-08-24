@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/holiday/proprietary/lib/libpbmlib.so:/system/lib/libpbmlib.so \
         vendor/htc/holiday/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
         vendor/htc/holiday/proprietary/lib/libqueue.so:/system/lib/libqueue.so \
-        vendor/htc/holiday/proprietary/lib/libril.so:/system/lib/libril.so \
         vendor/htc/holiday/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/holiday/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
         vendor/htc/holiday/proprietary/bin/charging:/system/bin/charging \
